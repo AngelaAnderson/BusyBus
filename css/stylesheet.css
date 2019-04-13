@@ -14,7 +14,7 @@
   background: #097067 url("../../images/SeattleBackground.png")no-repeat;
 }
 .frame{
-  width:1025px;
+  width:100%;
   height:150px;
   position: absolute;
   top: 67.5%;
@@ -164,16 +164,19 @@ left: 63px;
 top: -20px;
 text-align: center;
 }
-.timeinmin{
-    color: #FFEF66;
+.timeinmin, .min{
+    display: inline-block;
     font-size: 25px;
     font-weight: bold;
+}
+.timeinmin{
+  color: #FFEF66;
 }
 .upbus{
   position: absolute;
   width: 164px;
   height: 18px;
-  left: 57px;
+  left: 30px;
   top: 405px;
 }
 /* Bus Schedule Table */
@@ -188,10 +191,17 @@ text-align: center;
   font-size: 35px;
   font-weight: bold;
 }
-.bus-line-data,.line{
+.bus-line-data{
   position:relative ;
   width: 58.23px;
   left: 20px;
+  top: 30px;
+}
+.line{
+  position:relative ;
+  width: 58.23px;
+  left: 20px;
+  top: 23px;
 }
 .bus-direction-data, .direction{
   position:absolute;
@@ -200,13 +210,13 @@ text-align: center;
 }
 .bus-destination-data,.destination{
   position:absolute;
-  width: 207px;
-  left: 225px;
+  width: 170px;
+  left: 235px;
 }
 .bus-frequency-data,.frequency{
   position:absolute;
-  width: 207px;
-  left: 366px;
+  width: 150px;
+  left: 430px;
 }
 .busnumber{
   font-size: 55px;
