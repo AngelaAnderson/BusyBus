@@ -8,21 +8,22 @@
   </head>
   <!--End of Head Tag and the start of the Body Tag that will display content-->
   <body>
-    <section class="iphone">
+    <div class="backgroundcolor">
+    <div class="iphone">
     <!-- Status Bar-->
         <section class="status-bar">
-              <img src="images/Mobile Signal.png" alt="Mobile Signal Icon" class="mobile-signal-icon">
-              <article class="mobile-signal-type">
+              <img src="images/Mobile Signal.png" alt="Mobile Signal Icon" class="mobilesignalicon">
+              <article class="mobilesignaltype">
               <h5> GS </h5>
               </article>
-              <img src="images/Wifi.png" alt="Wifi Icon" class="wifi-icon">
+              <img src="images/Wifi.png" alt="Wifi Icon" class="wifiicon">
               <article class="time">
                 <h5> 9:41 AM </h5>
               </article>
-              <article class="battery-percentage">
+              <article class="batterypercentage">
                 <h5> 100% </h5>
               </article>
-            <img src="images/Battery.png" alt="Battery Icon" class="battery-icon">
+            <img src="images/Battery.png" alt="Battery Icon" class="batteryicon">
         </section>
         <!--Navigation Bar-->
         <nav id="nav-bar" aria-label="Secondary-nav">
@@ -31,46 +32,60 @@
               <article class="back-button-text">
                   <h6> Back </h6>
                 </article>
+                <article class="title">
                 <h1> State & Wash... </h1>
+                </article>
                 <img src="images/Userpic Icon.png" alt="Userpic Icon" class="userpic">
             </section>
           </nav>
           <!--Search Bar-->
           <section class="search-bar">
-            <img src="images/Search field.png" alt="Search Field" class="Search-field">
-            <img src="images/search icon.png" alt="search icon" class="search-icon">
-            <p> Search </p>
+            <img src="images/Search field.png" alt="Search Field" class="Searchfield">
+            <img src="images/search icon.png" alt="search icon" class="searchicon">
+            <article class="searchtext">
+              <p> Search </p>
+            </article>
             <img src="images/Location Icon.png" alt="Location Icon" class="location">
           </section>
   <!-- Bus Lines -->
-      <div class="frame" style="overflow: auto; width:725px; height:481px;">
-        <img src="images/Progress Circle.png" alt="Progress Circle" class="progresscircle">
-        <article class="arrival-countdown" aria-label="Arrival-Countdown Text">
-          <p> <article class="busnumber">#60</article> <br> in <br> <article class="timeinmin">10</article> minutes</p>
-        </article>
-        <p> Upcoming Buses: </p>
+  <img src="images/Progress Circle.png" alt="Progress Circle" class="progresscircle">
+  <article class="arrivalcountdown" aria-label="Arrival-Countdown Text">
+    <p> <article class="busnumber">#60</article><br>in</br></a><article class="timeinmin">10</article> minutes</p>
+  </article>
+  <article class="upbus">
+    <p> Upcoming Buses: </p>
+  </article>
+      <div class="frame" width:725px; height:481px;">
       <section aria-label="Schedule Headers">
-          <table class="bus-schedule">
+          <table class="busschedule">
             <tr>
               <td>
                 <header>
-                  <h2>Line</h2>
+                  <article class="line">
+                    <h2>Line</h2>
+                  </article>
                 </header>
               </td>
               <td>
-                <header>
+                <article class="direction">
+                  <header>
                   <h2>Direction</h2>
-                </header>
+                  </header>
+                </article>
               </td>
               <td>
-                <header>
-                  <h2>Destination</h2>
-                </header>
+                <article class="destination">
+                  <header>
+                    <h2>Destination</h2>
+                  </header>
+                </article>
               </td>
               <td>
-                <header>
-                  <h2>Frequency</h2>
-                </header>
+                <article class="frequency">
+                  <header>
+                    <h2>Frequency</h2>
+                  </header>
+                </article>
               </td>
             </tr>
         </section>
@@ -301,17 +316,15 @@
                           </section>
             </table>
       </div>
-
+      <nav id="main-nav" aria-label="Main">
+        <a class="hometext" style="text-decoration: none" href="#"> Home </a>
+          <img src="images/HomeIcon.png" alt="Home Icon" class="home">
+          <a class="scheduletext"style="text-decoration: none" href="#"> Schedule </a>
+          <img src="images/Clock Icon.png" alt="Clock Icon" class="clock">
+          <a class="extrastext" style="text-decoration: none" href="#"> Extras </a>
+          <img src="images/Menu Icon.png" alt="Menu Icon" class="menu">
+        </nav>
+    </div>
   </body>
-  <footer>
-    <nav id="main-nav" aria-label="Main">
-      <a style="text-decoration: none" href="#"> Home </a>
-        <img src="images/HomeIcon.png" alt="Home Icon" class="home">
-        <a style="text-decoration: none" href="#"> Schedule </a>
-        <img src="images/Clock Icon.png" alt="Clock Icon" class="clock">
-        <a style="text-decoration: none" href="#"> Extras </a>
-        <img src="images/Menu Icon.png" alt="Menu Icon" class="menu">
-      </nav>
-  </footer>
 </section>
 </html>

@@ -5,22 +5,25 @@
   box-sizing: border-box;
 }
 .iphone{
+  background-image: url("../../images/SeattleBackground.png");
   position: absolute;
   width: 375px;
   height: 667px;
-  overflow: scroll;
   font-family: SF Pro Text;
   color: #FFFFFF;
   position: relative;
-  background:linear-gradient(180deg, #78C69E
-    0.01%, #3AB4AA 0.02%,
-    #153243 0.03%, #086F66
-    67.4%);
+  background: #097067 url("../../images/SeattleBackground.png")no-repeat;
 }
 .frame{
-  width:725px;
-  height:481px;
-  background-image: url("../../images/Seattle Background.jpg)");
+  width:925px;
+  height:150px;
+  position: absolute;
+  left: 0%;
+  right: -93.33%;
+  top: 66.5%;
+  bottom: -400.85%;
+  overflow-y: scroll;
+  overflow-x: scroll;
 }
 h2{
   font-weight: bold;
@@ -29,7 +32,7 @@ h2{
   letter-spacing: -0.62%;
 }
 h3{
-  font-weight: normal;
+  font-weight:lighter;
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -2.41%
@@ -40,29 +43,220 @@ a{
   line-height: 100%;
   letter-spacing: 1.2%;
   color: #FFFFFF
+
+  /* Nav Bar */
 }
-.mobile-signal-type, .battery-percentage, .time{
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  position:static;
-  border-top: -2px;
-  display: inline-block;
+h6{
+  font-size: 17px;
 }
-.back-button, .back-button-text, .userpic, h1{
+/* Status Bar */
+.mobilesignaltype{
+  position: absolute;
+  width: 17px;
+  height: 682px;
+  left: 28px;
+  bottom: 2.5px;
+}
+.mobilesignalicon{
+  position: absolute;
+left: 1.87%;
+right: 94.27%;
+top: 1%;
+bottom: 27.5%;
+}
+.wifiicon{
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  left: 52.5px;
+  top: calc(1.6% - 8px/2);
+}
+.time{
+  position: absolute;
+width: 60px;
+height: 25px;
+left: calc(50% - 49px/2 + 1px);
+top: -2.5%;
+}
+.batterypercentage{
+  position: absolute;
+  left: 81%;
+  right: 8.53%;
+  top: -2.5%;
+  bottom: 12.5%;
+}
+.batteryicon{
+  position: absolute;
+left: 92%;
+right: 1.2%;
+top: 1%;
+bottom: 22.5%;
+}
+/* Search Bar */
+.Searchfield{
+  position: absolute;
+left: 2.13%;
+right: 2.13%;
+top: 13.71%;
+bottom: 6.78%;
+}
+.searchicon{
+  color: #8E8E93;
+  position: absolute;
+  left: 2.79%;
+  right: 93.31%;
+  top: 30.56%;
+  bottom: 40.56%;
+}
+.searchtext{
+  color: #8E8E93;
+  position: absolute;
+  left: 12%;
+  right: 76.32%;
+  top: 12.44%;
+  bottom: 19.44%;
+}
+.location{
+  position: absolute;
+  left: 89%;
+  right: 3.62%;
+  top: 15.3%;
+  bottom: 22.22%;
+}
+/* Navigation Bar */
+.back-button{
+  position: absolute;
+  left: 2%;
+  right: 88.42%;
+top: calc(50% - 24.5px/2 - 270.5px);
+  bottom: 26.74%;
+}
+.back-button-text{
+  position: absolute;
+  left: 7%;
+  right: 63.89%;
+top: calc(50% - 60px/2 - 291.5px);
+  bottom: 25%;
+}
+.title{
+  position: absolute;
+  width: 320px;
+  height: 22px;
+  left: calc(50% - 120px/2 - 1.5px);
+  top: calc(50% - 22px/2 - 291.5px);
+}
+.userpic{
+  position: absolute;
+left: 87%;
+top: calc(50% - 22px/2 - 276px);
+bottom: 44.92%;
+}
+/* Circle Elements */
+.progresscircle{
   position:relative;
-  display: inline-block;
+  width: 247px;
+  height: 247px;
+  left: 65px;
+  top: 155px;
+}
+.arrivalcountdown{
+position: relative;
+width: 249px;
+height: 100px;
+left: 63px;
+top: -20px;
+text-align: center;
+}
+.timeinmin{
+    color: #FFEF66;
+    font-size: 25px;
+    font-weight: bold;
+}
+.upbus{
+  position: absolute;
+  width: 164px;
+  height: 18px;
+  left: 57px;
+  top: 405px;
+}
+/* Bus Schedule Table */
+.busschedule{
+  position: absolute;
+  width: 555px;
+  height: 26px;
+  left: 9px;
+  top: 345px;
 }
 .arrival-countdown{
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: bold;
 }
+.bus-line-data,.line{
+  position: absolute ;
+  width: 58.23px;
+  left: 52.36px;
+  top:-345px;
+}
+.bus-direction-data, .direction{
+  position: absolute;
+  width: 256.44px;
+  left: 120px;
+}
+.bus-destination-data,.destination{
+  position: absolute;
+  width: 207px;
+  left: 266px;
+}
+
 .busnumber{
   font-size: 55px;
   line-height: 18px;
   letter-spacing: 0%;
   color: #FFEF66;
 }
-.timeinmin{
-    color: #FFEF66;
+/* Main Navigation*/
+/*Home */
+.hometext{
+  position: absolute;
+  width: 22px;
+  height: 25px;
+  left: 52px;
+  top: 652px;
+}
+.home{
+  position: absolute;
+  width: 22px;
+  height: 25px;
+  left: 59px;
+  top: 624px;
+}
+/* Schedule */
+.scheduletext{
+  position: absolute;
+  width: 125px;
+  height: 12px;
+  left: 163px;
+  top: 652px;
+}
+.clock{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 180px;
+  top: 624px;
+}
+/*Extra Menu */
+.extrastext{
+  position: absolute;
+  width: 125px;
+  height: 12px;
+  left: 290px;
+  top: 652px;
+}
+.menu{
+  position: absolute;
+width: 30px;
+height: 14px;
+left: 292px;
+top: 629px;
 }
