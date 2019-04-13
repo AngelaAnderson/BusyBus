@@ -17,10 +17,10 @@
     #153243 0.03%, #086F66
     67.4%);
 }
-.schedule-frame{
+.frame{
   width:725px;
   height:481px;
-  background-image:url(images/Seattle Background.jpg);
+  background-image: url("../../images/Seattle Background.jpg)");
 }
 h2{
   font-weight: bold;
@@ -36,7 +36,7 @@ h3{
 }
 a{
   font-weight: normal;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 100%;
   letter-spacing: 1.2%;
   color: #FFFFFF
@@ -46,6 +46,13 @@ a{
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 0%;
+  position:static;
+  border-top: -2px;
+  display: inline-block;
+}
+.back-button, .back-button-text, .userpic, h1{
+  position:relative;
+  display: inline-block;
 }
 .arrival-countdown{
   font-size: 25px;
