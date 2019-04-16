@@ -40,10 +40,12 @@
           </nav>
           <!--Search Bar-->
           <section class="search-bar">
-            <img src="images/Search field.png" alt="Search Field" class="Searchfield">
+            <!-- Search Form -->
+            <form action="index.html" method="post">
+              <input class="searchtextentry" type="text" placeholder="Search" formaction="search" id="search">
+            </form>
             <img src="images/search icon.png" alt="search icon" class="searchicon">
             <article class="searchtext">
-              <p> Search </p>
             </article>
             <img src="images/Location Icon.png" alt="Location Icon" class="location">
           </section>
@@ -55,40 +57,35 @@
   <article class="upbus">
     <p> Upcoming Buses: </p>
   </article>
+  <table class="scheduleheader">
+    <tr>
+      <td>
+        <header>
+          <article class="line">
+            <h2>Line</h2>
+          </article>
+        </header>
+      </td>
+      <td>
+        <article class="frequency">
+          <header>
+            <h2>Frequency</h2>
+          </header>
+        </article>
+      </td>
+      <td>
+        <article class="destination">
+          <header>
+            <h2>Destination</h2>
+          </header>
+        </article>
+      </td>
+    </tr>
+  </table>
       <div class="frame" width:725px; height:481px;">
       <section aria-label="Schedule Headers">
           <table class="busschedule">
-            <tr>
-              <td>
-                <header>
-                  <article class="line">
-                    <h2>Line</h2>
-                  </article>
-                </header>
-              </td>
-              <td>
-                <article class="direction">
-                  <header>
-                  <h2>Direction</h2>
-                  </header>
-                </article>
-              </td>
-              <td>
-                <article class="destination">
-                  <header>
-                    <h2>Destination</h2>
-                  </header>
-                </article>
-              </td>
-              <td>
-                <article class="frequency">
-                  <header>
-                    <h2>Frequency</h2>
-                  </header>
-                </article>
-              </td>
-            </tr>
-        </section>
+              </section>
         <!-- Entry 1 -->
         <section aria-label="Entry 1">
               <tr>
@@ -98,18 +95,13 @@
                   </article>
                 </td>
                 <td>
-                  <article class="bus-direction-data" aria-label="Bus Direction Entry 1">
-                    <h3>Eastbound</h3>
+                  <article class="bus-frequency-data" aria-label="Bus Frequency Entry 1">
+                    <h3>Every​ ​20​ ​minutes</h3>
                   </article>
                 </td>
                 <td>
                   <article class="bus-destination-data" aria-label="Bus Destination Entry 1">
                     <h3>Randolph/Harbor​ ​Dr</h3>
-                  </article>
-                </td>
-                <td>
-                  <article class="bus-frequency-data" aria-label="Bus Frequency Entry 1">
-                    <h3>Every​ ​20​ ​minutes</h3>
                   </article>
                 </td>
               </tr>
@@ -123,18 +115,13 @@
                     </article>
                   </td>
                   <td>
-                    <article class="bus-direction-data" aria-label="Bus Direction Entry 2">
-                      <h3>Eastbound</h3>
+                    <article class="bus-frequency-data" aria-label="Bus Frequency Entry 2">
+                      <h3>Every​ ​10​ ​minutes</h3>
                     </article>
                   </td>
                   <td>
                     <article class="bus-destination-data" aria-label="Bus Destination Entry 2">
                       <h3>Navy​ ​Pier</h3>
-                    </article>
-                  </td>
-                  <td>
-                    <article class="bus-frequency-data" aria-label="Bus Frequency Entry 2">
-                      <h3>Every​ ​10​ ​minutes</h3>
                     </article>
                   </td>
                 </tr>
@@ -148,8 +135,8 @@
                       </article>
                     </td>
                     <td>
-                      <article class="bus-direction-data" aria-label="Bus Direction Entry 3">
-                        <h3>Eastbound</h3>
+                      <article class="bus-frequency-data" aria-label="Bus Frequency Entry 3">
+                        <h3>Every​ ​16​ ​minutes</h3>
                       </article>
                     </td>
                     <td>
@@ -157,12 +144,7 @@
                         <h3>Devon/Clark</h3>
                       </article>
                     </td>
-                    <td>
-                      <article class="bus-frequency-data" aria-label="Bus Frequency Entry 3">
-                        <h3>Every​ ​16​ ​minutes</h3>
-                      </article>
-                    </td>
-                  </tr>
+                                      </tr>
               </section>
               <!-- Entry 4 -->
               <section aria-label="Entry 4">
@@ -173,18 +155,13 @@
                         </article>
                       </td>
                       <td>
-                        <article class="bus-direction-data" aria-label="Bus Direction Entry 4">
-                          <h3>Northbound</h3>
+                        <article class="bus-frequency-data" aria-label="Bus Frequency Entry 4">
+                          <h3>Every​ ​15​ ​minutes</h3>
                         </article>
                       </td>
                       <td>
                         <article class="bus-destination-data" aria-label="Bus Destination Entry 4">
                           <h3>103rd/Stony​ ​Island</h3>
-                        </article>
-                      </td>
-                      <td>
-                        <article class="bus-frequency-data" aria-label="Bus Frequency Entry 4">
-                          <h3>Every​ ​15​ ​minutes</h3>
                         </article>
                       </td>
                     </tr>
@@ -198,18 +175,13 @@
                           </article>
                         </td>
                         <td>
-                          <article class="bus-direction-data" aria-label="Bus Direction Entry 5">
-                            <h3>Southbound</h3>
+                          <article class="bus-frequency-data" aria-label="Bus Frequency Entry 5">
+                            <h3>Every​ ​10​ ​minutes</h3>
                           </article>
                         </td>
                         <td>
                           <article class="bus-destination-data" aria-label="Bus Destination Entry 5">
                             <h3>Navy​ ​Pier</h3>
-                          </article>
-                        </td>
-                        <td>
-                          <article class="bus-frequency-data" aria-label="Bus Frequency Entry 5">
-                            <h3>Every​ ​10​ ​minutes</h3>
                           </article>
                         </td>
                       </tr>
@@ -223,18 +195,13 @@
                             </article>
                           </td>
                           <td>
-                            <article class="bus-direction-data" aria-label="Bus Direction Entry 6">
-                              <h3>Southbound</h3>
+                            <article class="bus-frequency-data" aria-label="Bus Frequency Entry 6">
+                              <h3>N/A</h3>
                             </article>
                           </td>
                           <td>
                             <article class="bus-destination-data" aria-label="Bus Destination Entry 6">
                               <h3>Jackson​ ​Park​ ​Express</h3>
-                            </article>
-                          </td>
-                          <td>
-                            <article class="bus-frequency-data" aria-label="Bus Frequency Entry 6">
-                              <h3>N/A</h3>
                             </article>
                           </td>
                         </tr>
@@ -248,18 +215,13 @@
                               </article>
                             </td>
                             <td>
-                              <article class="bus-direction-data" aria-label="Bus Direction Entry 7">
-                                <h3>Out of Service</h3>
+                              <article class="bus-frequency-data" aria-label="Bus Frequency Entry 7">
+                                <h3>Resumes​ ​12:10am</h3>
                               </article>
                             </td>
                             <td>
                               <article class="bus-destination-data" aria-label="Bus Destination Entry 7">
                                 <h3>Cottage​ ​Grove</h3>
-                              </article>
-                            </td>
-                            <td>
-                              <article class="bus-frequency-data" aria-label="Bus Frequency Entry 7">
-                                <h3>Resumes​ ​12:10am</h3>
                               </article>
                             </td>
                           </tr>
@@ -273,18 +235,13 @@
                                 </article>
                               </td>
                               <td>
-                                <article class="bus-direction-data" aria-label="Bus Direction Entry 8">
-                                  <h3>Out of Service</h3>
+                                <article class="bus-frequency-data" aria-label="Bus Frequency Entry 8">
+                                  <h3>Resumes​ ​12:10am</h3>
                                 </article>
                               </td>
                               <td>
                                 <article class="bus-destination-data" aria-label="Bus Destination Entry 8">
                                   <h3>Madison</h3>
-                                </article>
-                              </td>
-                              <td>
-                                <article class="bus-frequency-data" aria-label="Bus Frequency Entry 8">
-                                  <h3>Resumes​ ​12:10am</h3>
                                 </article>
                               </td>
                             </tr>
@@ -298,18 +255,13 @@
                                   </article>
                                 </td>
                                 <td>
-                                  <article class="bus-direction-data" aria-label="Bus Direction Entry 9">
-                                    <h3>Out of Service</h3>
+                                  <article class="bus-frequency-data" aria-label="Bus Frequency Entry 9">
+                                    <h3>Resumes​ ​6:00am</h3>
                                   </article>
                                 </td>
                                 <td>
                                   <article class="bus-destination-data" aria-label="Bus Destination Entry 9">
                                     <h3>Streeterville/Taylor</h3>
-                                  </article>
-                                </td>
-                                <td>
-                                  <article class="bus-frequency-data" aria-label="Bus Frequency Entry 9">
-                                    <h3>Resumes​ ​6:00am</h3>
                                   </article>
                                 </td>
                               </tr>
