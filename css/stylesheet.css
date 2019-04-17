@@ -1,6 +1,4 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-</head>
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -49,31 +47,31 @@ a{
 .mobilesignaltype{
   display: inline-block;
   padding-left: 1%;
-  margin-top:-5%;
+  margin-top:-3%;
 }
 .mobilesignalicon{
   display: inline-block;
   padding-left: 3%;
-  margin-top: -5%;
+  margin-top: -3%;
 }
 .wifiicon{
   display: inline-block;
   padding-left: 1%;
-  margin-top: -5%;
+  margin-top: -3%;
 }
 .time{
 display: inline-block;
   padding-left: 25%;
-  margin-top:-5%;
+  margin-top:-3%;
 }
 .batterypercentage{
   display: inline-block;
-  margin-top: -5%;
-  padding-left: 20%;
+  margin-top: -3%;
+  padding-left: 15%;
 }
 .batteryicon{
   display: inline-block;
-  margin-top: -5%;
+  margin-top: -3%;
   padding-left: -%;
 }
 
@@ -81,16 +79,16 @@ display: inline-block;
 .userpic{
   float: left;
   padding-left: 90%;
-  margin-top:-18%;
+  margin-top:-2%;
 }
 .back-button{
   float: left;
-  padding-left: 3%;
-  margin-top: -.5%;
+  padding-left: 2%;
+  margin-top: 2.5%;
 }
 .back-button-text{
   display: inline-block;
-  margin-top:-40%;
+  margin-top:-0%;
   padding-left:3%;
 }
 .title{
@@ -108,7 +106,7 @@ display: inline-block;
   border-color: #ffffff;
   box-shadow:none;
   margin: 0 1.5%;
-margin-top: -6%;}
+  margin-top: -2%;}
   ::-webkit-input-placeholder{
     color:#8E8E93;
     font-size:17px;
@@ -163,14 +161,19 @@ text-align: center;
 }
 .upbus{
   float: left;
-  margin-left:2%;
-  margin-top:0%;
+  margin-left:5%;
+  margin-top:4%;
 }
 /* Bus Schedule Table */
+.direction{
+  color:#FFEF66;
+  float: left;
+  margin-left: 3.5%;
+}
 .scheduleheader{
   float: left;
-  margin-top:-3%;
-  margin-left: -3%
+  margin-top:10%;
+  margin-left: -40%
 }
 .frequency{
   float: left;
@@ -184,29 +187,35 @@ text-align: center;
   float: left;
   width: 555px;
   height: 26px;
-  margin-left:-3%;
-  margin-top:-4%;
+  margin-left:-10%;
+  margin-top:-10%;
 }
 .arrival-countdown{
   font-size: 35px;
   font-weight: bold;
 }
-.bus-line-data, .line{
+ .line{
   float: left;
   width: 58.23px;
   margin-left: 30%;
   margin-top: 0%;
 }
+.bus-line-data{
+  float: left;
+  width: 58.23px;
+  margin-left: 20%;
+  margin-top: 0%;
+}
 .bus-frequency-data{
   float: left;
   width: 180px;
-  margin-left: 3%;
+  margin-left: 7%;
   margin-top: 0%;
 }
 .bus-destination-data{
   float: left;
   width: 180px;
-  margin-left: -40%;
+  margin-left: -18%;
   margin-top: 0%;
 }
 /* Main Navigation*/
