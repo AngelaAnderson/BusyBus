@@ -16,7 +16,7 @@
 }
 .frame{
   width:100%;
-  height:128px;
+  height:165px;
   overflow:auto;
   overflow-x: hidden;
 }
@@ -96,7 +96,7 @@ a{
 }
 .title{
   float: left;
-  padding-left: 20%;
+  padding-left: 18%;
   margin-top:5%;
 }
 /* Search Bar */
@@ -172,28 +172,29 @@ text-align: center;
   color:#FFEF66;
   float: left;
   margin-left: 4.5%;
+  line-height: 45px;
 }
 .scheduleheader{
   float: left;
-  margin-top:12%;
-  margin-left: -40%
+  margin-top:11%;
+  margin-left: -40%;
 }
 .frequency{
   float: left;
-  margin-left:13%;
+  margin-left:19.5%;
   font-weight: bold;
 }
 .destination{
   float: left;
-  margin-left:60%;
+  margin-left:72%;
   font-weight: bold;
 }
 .busschedule{
   float: left;
   width: 555px;
-  height: 26px;
+  height: 35px;
   margin-left:-10%;
-  margin-top:-10%;
+  margin-top:-15%;
 }
 .arrival-countdown{
   font-size: 35px;
@@ -202,7 +203,7 @@ text-align: center;
  .line{
   float: left;
   width: 58.23px;
-  margin-left: 25.5%;
+  margin-left: 26%;
   margin-top: 0%;
   font-weight: bold;
 }
@@ -211,53 +212,59 @@ text-align: center;
   width: 58.23px;
   margin-left: 30%;
   margin-top: 0%;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 30px;
 }
 .bus-frequency-data{
   float: left;
   width: 180px;
-  margin-left: 7%;
+  margin-left: 10%;
   margin-top: 0%;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 30px;
 }
 .bus-destination-data{
   float: left;
   width: 180px;
-  margin-left: -21.5%;
+  margin-left: -15%;
   margin-top: 0%;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 30px;
 }
 /* Main Navigation*/
 /*Home */
 .hometext{
   float: left;
-  margin-top: 15%;
+  margin-top: 13.5%;
   margin-left:9%;
+  font-size: 12px;
 }
 .home{
   float: left;
-  margin-top:7%;
+  margin-top:6%;
   margin-left:-7%;
 }
 /* Schedule */
 .scheduletext{
   float: left;
-  margin-top: 15%;
-  margin-left: 26%;
+  padding-top: 13.5%;
+  margin-left: 25%;
+  font-size: 12px;
 }
 .clock{
   float: left;
-  margin-top:7%;
+  margin-top:6%;
   margin-left: -9.5%;
 }
 /*Extra Menu */
 .extrastext{
   float: left;
-  padding-top: 15%;
+  padding-top: 13.5%;
   padding-left: 25%;
+  font-size: 12px;
 }
 .menu{
   float: left;
-  margin-top: 9%;
-  margin-left: -8%;
+  margin-top: -8.5%;
+  margin-left: 83%;
 }
