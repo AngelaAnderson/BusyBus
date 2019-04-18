@@ -175,7 +175,7 @@ text-align: center;
 }
 .scheduleheader{
   float: left;
-  margin-top:12%;
+  margin-top:11%;
   margin-left: -40%;
 }
 .frequency{
@@ -193,7 +193,7 @@ text-align: center;
   width: 555px;
   height: 35px;
   margin-left:-10%;
-  margin-top:-15%;
+  margin-top:-20%;
 }
 .arrival-countdown{
   font-size: 35px;
