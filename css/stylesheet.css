@@ -11,7 +11,7 @@
   height: 667px;
   font-family: SF Pro Text;
   color: #FFFFFF;
-  background: #097067 url("../../images/SeattleBackground.png")no-repeat;
+  background: #097067 url("../images/SeattleBackground.png")no-repeat;
 }
 .frame{
   width:100%;
