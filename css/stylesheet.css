@@ -232,14 +232,29 @@ text-align: center;
 }
 /* Main Navigation*/
 /*Home */
-.bottomnavtext{
-  display: inline-block;
+.hometext,.scheduletext, .extrastext{
   text-decoration: none;
-  width: 100%;
-  margin:5%;
 }
-.bottomnavicons{
+.home, .clock, .menu{
+  display: block;
+  margin: auto;
+
+}
+.olhome{
   display: inline-block;
-  width: 100%;
-  margin-left, margin-right:5%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+.olschedule{
+  display: inline-block;
+  float:left;
+  margin-left: 30%;
+  margin-top: 7%;
+}
+.olmenu{
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+  margin-top: 9%;
 }
