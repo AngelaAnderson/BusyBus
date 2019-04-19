@@ -2,12 +2,8 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-@@font-face {
-  font-family:system;
-  src:local(".SF-Pro-Display-Regular.otf"),local(".SF-Pro-Display-Light.otf");
-}
 body{
-  font-family: "system";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .iphone{
   margin: auto;
