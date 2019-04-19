@@ -21,6 +21,7 @@ body{
 }
 
 h2{
+  margin-top: 40%;
   font-weight: bold;
   font-size: 16px;
   line-height: 18px;
@@ -156,82 +157,92 @@ text-align: center;
   color: #FFEF66;
 }
 .busnumber{
+  margin-top:-8%;
   font-size: 55px;
   line-height: 20px;
   letter-spacing: 0%;
   color: #FFEF66;
 }
-.upbus{
-  float: left;
-  margin-left:5%;
-  margin-top:4%;
-}
-/* Bus Schedule Table */
-.direction{
-  color:#FFEF66;
-  float: left;
-  margin-left: 4.5%;
-  line-height: 45px;
-}
-.scheduleheader{
-  float: left;
-  margin-top:11%;
-  margin-left: -40%;
-}
-.frequency{
-  float: left;
-  margin-left:19.5%;
-  font-weight: bold;
-}
-.destination{
-  float: right;
-  margin-right:-72%;
-  font-weight: bold;
-}
-.busschedule{
-  float: left;
-  width: 555px;
-  height: 35px;
-  margin-left:-10%;
-  margin-top:-20%;
-}
 .arrival-countdown{
   font-size: 35px;
   font-weight: bold;
 }
- .line{
-  float: left;
-  width: 58.23px;
-  margin-left: 26%;
-  margin-top: 0%;
-  font-weight: bold;
+p{
+  display: inline-grid;
+  color:#FFEF66;
+  line-height: 45px;
+  margin-bottom: 1.5%;
 }
-.bus-line-data{
+.eb, .nb, .sb, .rr,.ofo{
+  display: inline
+  float: left;
+  margin-left: 4%;
+}
+.upbus{
+  color: #FFFFFF;
+  float: left;
+  margin-left:4%;
+  margin-top:0%;
+}
+/* Bus Schedule Table */
+
+.scheduleheader{
+  float: left;
+  margin-top:0%;
+  margin-left:1%;
+}
+.line{
+  float: left;
+  margin-left: -64.5%;
+  margin-top: 12%;
+}
+.frequency{
+  float: left;
+  margin-left: -27.5%;
+  margin-top: 2%;
+}
+.destination{
+  float: left;
+  margin-left: 22%;
+  margin-top: 0%;
+}
+
+.busline{
+  display: inline-block;
   float: left;
   width: 58.23px;
-  margin-left: 30%;
+  margin-left:4%;
   margin-top: 0%;
   font-size: 15px;
   line-height: 30px;
 }
-.bus-frequency-data{
+.busfrequency{
+  display: inline-block;
   float: left;
   width: 180px;
-  margin-left: 10%;
-  margin-top: 0%;
+  margin-left:5.25%;
+  margin-top:0%;
   font-size: 15px;
   line-height: 30px;
 }
-.bus-destination-data{
+.busdestination{
+  display: inline-block;
   float: left;
   width: 180px;
-  margin-left: -15%;
-  margin-top: 0%;
+  margin-left: 59.75%;
+  margin-top:-5.75%;
   font-size: 15px;
   line-height: 30px;
 }
 /* Main Navigation*/
 /*Home */
+td{
+  margin-top:2%;
+}
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(1) {
+  border-bottom: 0.5px solid #FFEF66;
+  }
+}
 .hometext,.scheduletext, .extrastext{
   text-decoration: none;
 }
