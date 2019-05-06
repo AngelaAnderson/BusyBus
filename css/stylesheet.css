@@ -175,7 +175,8 @@ p{
   display: inline-grid;
   color:#FFEF66;
   line-height: 45px;
-  margin-bottom: 1.5%;
+  margin-bottom: -3%;
+  margin-top: 7%;
 }
 .eb, .nb, .sb, .rr,.ofo{
   display: inline
